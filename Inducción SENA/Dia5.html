@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Home</title>
+    <title>Día 5</title>
     <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800%7CPoppins:300,400,700">
+    <link rel="icon" href="images/logo-default-151x44.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css"
+      href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800%7CPoppins:300,400,700">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css" id="main-styles-link">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -109,15 +120,18 @@
             <span class="wow slideInDown">Herramientas TIC</span>
           </h3>
           <div class="row row-lg-50 row-35 offset-top-2 justify-content-center">
-            <div class="col-12 col-md-8 wow-outer">
+            <div class="col-md-6 wow-outer">
               <!-- Post Modern-->
               <article class="post-modern wow slideInLeft">
                 <a href="#">
                   <div class="video-container">
-                    <iframe 
-                      src="https://www.youtube.com/embed/SQfx8d2tgas" 
-                      title="Apertura a la formación 1" 
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    <iframe
+                      width="571"
+                      height="353"
+                      src="https://www.youtube.com/embed/SQfx8d2tgas"
+                      title="YouTube video"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowfullscreen>
                     </iframe>
                   </div>
@@ -163,51 +177,200 @@
         </div>
       </section> -->
       <!-- Services-->
+
+
       <section class="section novi-background section-lg text-center">
         <div class="container">
           <h3 class="text-uppercase">Recursos SENA</h3>
-          <p><span class="text-width-1">En este apartado encontrarás información y recursos que pueden ser útiles en tu ingreso al SENA</span></p>
-          <div class="row justify-content-center gy-4">
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Formato de guía de aprendizaje -->
+          <p><span class="text-width-1">En este apartado encontrarás información y recursos que pueden ser útiles para el desarrollo de la actividad</span></p>
+          
+          <!-- Responsive Cards -->
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+          
+            <!-- Guía de aprendizaje -->
+            <div class="col">
               <article class="thumbnail-light">
-                <a class="thumbnail-light-media" href="../Inducción SENA/PDF´s/guiaAprendizajeTIC.pdf" target="_blank">
-                  <img class="thumbnail-light-image" src="images/pdf.png" alt="Guía de aprendizaje">
+                <a class="thumbnail-light-media" href="#" data-bs-toggle="modal" data-bs-target="#pdfModal1">
+                  <img class="thumbnail-light-image" src="images/pdf.png" alt="Guía de aprendizaje" width="270" height="300">
                 </a>
-                <h4 class="thumbnail-light-title text-center">
-                  <a href="../Inducción SENA/PDF´s/guiaDia4.pdf" target="_blank">Guía de aprendizaje</a>
+                <h4 class="thumbnail-light-title">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal1">Guía de aprendizaje</a>
                 </h4>
               </article>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Lista de chequeo -->
+      
+            <!-- Lista de chequeo -->
+            <div class="col">
               <article class="thumbnail-light">
-                <a class="thumbnail-light-media" href="/Inducción SENA/PDF´s/ListaChequeoTIC.pdf" target="_blank">
-                  <img class="thumbnail-light-image" src="images/pdf.png" alt="Lista de chequeo">
+                <a class="thumbnail-light-media" href="#" data-bs-toggle="modal" data-bs-target="#pdfModal2">
+                  <img class="thumbnail-light-image" src="images/pdf.png" alt="Lista de chequeo" width="270" height="300">
                 </a>
-                <h4 class="thumbnail-light-title text-center">
-                  <a href="/Inducción SENA/PDF´s/instrumentoEvaluacion.pdf" target="_blank">Lista de chequeo</a>
+                <h4 class="thumbnail-light-title">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#pdfModal2">Lista de chequeo</a>
                 </h4>
               </article>
             </div>
-          </div>
-            <!-- <div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#">view all properties</a></div> -->
+          
           </div>
         </div>
+      
+        <div class="modal fade" id="pdfModal1" tabindex="-1" aria-labelledby="pdfModalLabel1" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="pdfModalLabel1">Previsualizar PDF</h5>
+                <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;">
+                  <i class="fas fa-times fa-lg"></i>
+                </button>      </div>
+              <div class="modal-body">
+                <div class="pdf-container" style="overflow-y: auto; max-height: 65vh; touch-action: pan-y pinch-zoom;">
+                  <div id="pdfPages1"></div>
+                </div>
+                <div class="page-indicator text-center mt-2">
+                  <span id="currentPageInfo1">Cargando...</span>
+                </div>
+              </div>
+              <div class="modal-footer">
+        
+                <a href="PDF´s/guiaAprendizajeTIC.pdf" download class="btn btn-success">
+                  <i class="fas fa-download"></i> Descargar
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #50f016df; border-color: #50f016df;">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Modal for PDF 2 -->
+        <div class="modal fade" id="pdfModal2" tabindex="-1" aria-labelledby="pdfModalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="pdfModalLabel2">Previsualizar PDF</h5>
+                <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;">
+                  <i class="fas fa-times fa-lg"></i>
+                </button>      </div>
+              <div class="modal-body">
+                <div class="pdf-container" style="overflow-y: auto; max-height: 65vh; touch-action: pan-y pinch-zoom;">
+                  <div id="pdfPages2"></div>
+                </div>
+                <div class="page-indicator text-center mt-2">
+                  <span id="currentPageInfo2">Cargando...</span>
+                </div>
+              </div>
+              <div class="modal-footer">
+        
+                <a href="PDF´s/ListaChequeoTIC.pdf" download class="btn btn-success">
+                  <i class="fas fa-download"></i> Descargar
+                </a>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #50f016df; border-color: #50f016df;">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </section>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pdfs = [
+                { 
+                    url: 'PDF´s/guiaAprendizajeTIC.pdf',
+                    pagesContainerId: 'pdfPages1',
+                    pageInfoId: 'currentPageInfo1'
+                },
+                { 
+                    url: 'PDF´s/ListaChequeoTIC.pdf',
+                    pagesContainerId: 'pdfPages2',
+                    pageInfoId: 'currentPageInfo2'
+                }
+            ];
+        
+            const pdfjsLib = window['pdfjs-dist/build/pdf'];
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+        
+            const renderPDF = async (pdfConfig) => {
+                try {
+                    const pdfPagesContainer = document.getElementById(pdfConfig.pagesContainerId);
+                    const currentPageInfo = document.getElementById(pdfConfig.pageInfoId);
+        
+                    const pdf = await pdfjsLib.getDocument(pdfConfig.url).promise;
+                    const totalPages = pdf.numPages;
+        
+                    pdfPagesContainer.innerHTML = ''; // Clear previous pages
+        
+                    for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+                        const page = await pdf.getPage(pageNum);
+                        const scale = 1.5;
+                        const viewport = page.getViewport({ scale });
+        
+                        const canvas = document.createElement('canvas');
+                        const context = canvas.getContext('2d');
+                        
+                        canvas.height = viewport.height;
+                        canvas.width = viewport.width;
+                        canvas.style.display = 'block';
+                        canvas.style.margin = '10px auto';
+                        canvas.style.maxWidth = '100%';
+        
+                        await page.render({
+                            canvasContext: context,
+                            viewport: viewport
+                        }).promise;
+        
+                        pdfPagesContainer.appendChild(canvas);
+                    }
+        
+                    currentPageInfo.textContent = `Páginas: ${totalPages}`;
+                } catch (error) {
+                    console.error('Error rendering PDF:', error);
+                }
+            };
+        
+            // Attach rendering to each modal's show event
+            pdfs.forEach((pdfConfig, index) => {
+                const modal = document.getElementById(`pdfModal${index + 1}`);
+                modal.addEventListener('shown.bs.modal', () => renderPDF(pdfConfig));
+            });
+        
+            // Zoom functionality
+            document.querySelectorAll('.zoomIn, .zoomOut').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    const target = e.currentTarget.getAttribute('data-target');
+                    const pdfPagesContainer = document.getElementById(`pdfPages${target}`);
+                    let currentZoom = parseFloat(pdfPagesContainer.style.transform?.replace('scale(', '')) || 1;
+        
+                    if (e.currentTarget.classList.contains('zoomIn')) {
+                        currentZoom = Math.min(2, currentZoom + 0.2);
+                    } else {
+                        currentZoom = Math.max(0.5, currentZoom - 0.2);
+                    }
+        
+                    pdfPagesContainer.style.transform = `scale(${currentZoom})`;
+                });
+            });
+        });
+        </script>  
       <section class="section novi-background section-md text-center">
         <div class="container">
           
           <div class="row row-lg-50 row-35 offset-top-2 justify-content-center">
-            <div class="col-12 col-md-8 wow-outer">
+            <div class="col-md-6 wow-outer">
               <!-- Post Modern-->
               <article class="post-modern wow slideInLeft">
                 <a href="#">
-                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wf_dzUamjwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-                      </div>
-                      
+                  <div class="video-container">
+                    <iframe
+                      width="571"
+                      height="353"
+                      src="https://www.youtube.com/embed/wf_dzUamjwg"
+                      title="YouTube video"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
                 </a>
+
               </article>
             </div>
           </div>
@@ -216,10 +379,10 @@
       <section class="section novi-background section-lg text-center">
         <div class="container">
           <h3 class="text-uppercase">Material de apoyo</h3>
-         
           <div class="row justify-content-center gy-4">
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Biblioteca virtual SENA -->
+      
+            <!-- Biblioteca virtual SENA -->
+            <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
               <article class="thumbnail-light">
                 <a class="thumbnail-light-media" href="https://biblioteca.sena.edu.co" target="_blank">
                   <img class="thumbnail-light-image" src="images/biblioteca-en-linea.png" alt="Biblioteca virtual SENA">
@@ -229,8 +392,9 @@
                 </h4>
               </article>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Portal SofiaPlus -->
+      
+            <!-- Portal SofiaPlus -->
+            <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
               <article class="thumbnail-light">
                 <a class="thumbnail-light-media" href="https://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">
                   <img class="thumbnail-light-image" src="images/web-browser.png" alt="Portal SofiaPlus">
@@ -240,8 +404,9 @@
                 </h4>
               </article>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Diagnóstico competencias TIC -->
+      
+            <!-- Diagnóstico competencias TIC -->
+            <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
               <article class="thumbnail-light">
                 <a class="thumbnail-light-media" href="https://www.thatquiz.org/es/preview?c=lbnf8mrx&s=ptaqsg" target="_blank">
                   <img class="thumbnail-light-image" src="images/diagnostico.png" alt="Diagnóstico TIC">
@@ -251,8 +416,9 @@
                 </h4>
               </article>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center">
-              <!-- Blog institucional -->
+      
+            <!-- Blog institucional -->
+            <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
               <article class="thumbnail-light">
                 <a class="thumbnail-light-media" href="https://tecnologia-manufactura-avanzada.blogspot.com" target="_blank">
                   <img class="thumbnail-light-image" src="images/blog-en-linea.png" alt="Blog institucional">
@@ -262,13 +428,11 @@
                 </h4>
               </article>
             </div>
-          </div>
-          
-          
-            <!-- <div class="col-md-12 wow-outer"><a class="button button-primary button-winona button-md" href="#">view all properties</a></div> -->
+      
           </div>
         </div>
       </section>
+      
       <!-- <section class="section novi-background section-lg text-center bg-gray-100">
         <div class="container">
           <h3 class="text-uppercase wow-outer"><span class="wow slideInUp">Our Team</span></h3>
